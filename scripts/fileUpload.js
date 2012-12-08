@@ -127,7 +127,9 @@ function takePicture(camera) {
         destinationType : Camera.DestinationType.DATA_URL,
         sourceType : source, 
         encodingType: Camera.EncodingType.JPEG,
-        saveToPhotoAlbum: false
+        saveToPhotoAlbum: false,
+        correctOrientation: true,
+        quality:25
     };
     navigator.camera.getPicture( gotPicture, pictureFailed, cameraOptions); 
 }
@@ -175,11 +177,11 @@ function gotPicture(imageData) {
                     $('#photo-preview').removeClass('small-image');
                     $('#view-refresh-button').click();
                 });
-            } 
+            }
       });
       // If the request failed, informt the user.
       jqxhr.error(function () {
-          setError("Connection Error: Check your internet connection and the 'domain ' in the settings");
+          setError("Connection Error: Check your internet connection and the 'domain' in the settings");
       });	
        
 }
