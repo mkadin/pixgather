@@ -29,6 +29,12 @@
     <icon src="images/pixgather-72.png" gap:platform="android" gap:density="hdpi" />
     <icon src="images/pixgather-96.png" gap:platform="android" gap:density="xhdpi" />
     
+    <icon src="images/pixgather-36.png" width="36" height="36" />
+    <icon src="images/pixgather-48.png" width="48" height="48" />
+    <icon src="images/pixgather-72.png" width="72" height="72" />
+    <icon src="images/pixgather-96.png" width="96" height="96" />
+    
+
     <feature name="http://api.phonegap.com/1.0/battery" />
     <feature name="http://api.phonegap.com/1.0/camera" />
     <feature name="http://api.phonegap.com/1.0/file" />
