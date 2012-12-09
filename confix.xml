@@ -23,7 +23,6 @@
     <icon src="images/pixgather-72.png" gap:platform="ios" width="72" height="72" />
     <icon src="images/pixgather-114.png" width="114" height="114" />
 
-ls
 
     <icon src="images/pixgather-36.png" gap:platform="android" gap:density="ldpi" />
     <icon src="images/pixgather-48.png" gap:platform="android" gap:density="mdpi" />
