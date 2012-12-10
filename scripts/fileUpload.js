@@ -128,7 +128,6 @@ function takePicture(camera) {
         sourceType : source, 
         encodingType: Camera.EncodingType.JPEG,
         saveToPhotoAlbum: false,
-        correctOrientation: true,
         quality:25
     };
     navigator.camera.getPicture( gotPicture, pictureFailed, cameraOptions); 
